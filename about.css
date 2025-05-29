@@ -1,0 +1,44 @@
+body{
+    padding: 50px;
+    margin-top: 70px;
+    background-color: burlywood;
+}
+
+.section__header{
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+.person__grid{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.data{
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: peru;
+}
+
+.data img{
+    max-width: 100px;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 5%;
+}
+
+.data p{
+    text-align:left;
+    color: var(--text-dark);
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.data a :hover{
+    color: brown;
+}
