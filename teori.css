@@ -1,0 +1,82 @@
+h1{
+    color:rgb(106, 55, 3);
+    font-size: 40px;
+    text-align: center;
+}
+
+body{
+    background-color:burlywood;
+    padding: 20px;
+}
+
+.p1{
+    font-size: 22px;
+    text-align: left;
+    color: black;
+}
+
+ul {
+    text-align:left ;
+    font-size: 20px;
+}
+
+
+ul a:hover{
+    color: rgb(80, 47, 1);
+}
+
+a{
+    color: saddlebrown;
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+    background-color: navajowhite;
+    font-family: sans-serif ;
+}
+
+ul{
+    position: absolute;
+    width: 450px;
+    margin: 100px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+body{
+    background-color:burlywood;
+}
+
+p{
+    color: rgb(237, 235, 234);
+    font-size: 30px;
+    text-align: left;
+}
+
+h1{
+    color:rgb(106, 55, 3);
+    font-size: 50px;
+    text-align: left;
+}
+
+.teks{
+    text-align: left;
+    color: sienna;
+    font-size: 30px;
+}
+
+.news-content a:hover{
+    color: #472a03;
+}
+
+.news-card a:hover{
+    color: #472a03;
+}
+
+
