@@ -1,0 +1,26 @@
+.bukti{
+    padding: 60px;
+    margin-top: 40px;
+}
+
+.font{
+    font-size: 25px;
+    padding: 4px;
+}
+
+p{
+    padding: 10px;
+    text-align: justify;
+    margin: 40px;
+}
+
+h1{
+    margin-top: 90px;
+    padding: 30px;
+    font-size: 70px;
+}
+
+.teks{
+    text-align: left;
+    font-size: 30px;
+}
