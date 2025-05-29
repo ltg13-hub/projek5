@@ -1,0 +1,57 @@
+.teori{
+    width: 90%;
+    margin-top: 100px;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.font{
+    font-size: 25px;
+    padding: 4px;
+}
+
+p{
+    padding: 10px;
+    text-align: justify;
+    margin: 40px;
+}
+
+h1{
+    margin-top: 90px;
+    padding: 30px;
+    font-size: 70px;
+    color: peru;
+}
+
+.arus{
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.foto{
+    size: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.brahmana{
+    font-size: 25px;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+h2{
+    margin-top: 90px;
+    padding: 30px;
+    font-size: 50px;
+    color: peru;
+}
+
+h3{
+    font-size: 40px;
+    padding: 10px;
+}
+
