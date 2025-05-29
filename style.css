@@ -1,0 +1,81 @@
+:root{
+    --coklat-tua:#3d2b03;
+    --coklat:#b7620c;
+    --abu-abu:#3d3c3a;
+    --text-light:#767268;
+    --coklat-muda:#daaa5d;
+    --white:#ffffff;
+    --max-width: 1200px;
+}
+
+
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    transform: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth ;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    top:0; left:0; right: 0;
+    background-color: peru;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1)
+}
+
+header .logo span{
+    color: var(--coklat)
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding: 2rem;
+    color: #3d2b03;
+
+}
+
+header .navbar a:hover{
+    color: #472a03;
+    border-bottom: 3px solid #472a03;
+}
+
+nav{
+    max-width: var(--max-width);
+    margin: auto;
+    padding:2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.nav__logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(rgb(177, 103, 13));
+    text-align: left;
+
+}
+
+.nav__links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
