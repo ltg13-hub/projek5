@@ -1,0 +1,45 @@
+div{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+body{
+    background-color:burlywood;
+}
+
+p{
+    color: rgb(237, 235, 234);
+    font-size: 30px;
+    text-align: left;
+}
+
+.news-content a:hover{
+    color: #472a03;
+}
+
+.news-card a:hover{
+    color: #472a03;
+}
+
+.footer__bar{
+    position: relative;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(79, 41, 2);
+    text-align: right;
+    overflow: hidden;
+}
+
+.footer__bar::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 28rem;
+    transform: translateY(-50%);
+    width: 20rem;
+    height: 2px;
+    background-origin: brown;
+}
